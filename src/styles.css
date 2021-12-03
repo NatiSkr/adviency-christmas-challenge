@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap");
+
 html {
-  background-image: url("background.jpg");
-  background-position: center;
+  background-image: url("resources/background.jpg");
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
 }
 
@@ -9,6 +12,7 @@ html {
   font-family: sans-serif;
   text-align: center;
   position: relative;
+  font-family: "Fuzzy Bubbles", cursive;
 }
 
 /*Stock image from https://www.pexels.com/photo/assorted-color-gift-boxes-1303085/*/
@@ -24,9 +28,10 @@ html {
     rgba(255, 255, 255, 0.7)
   );
   border-radius: 3vh;
-  border-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(220, 61, 42, 0.3);
   border-style: solid;
   border-width: 0.5vh;
+  color: #261d09;
 }
 
 .gift-box ul {
@@ -39,4 +44,6 @@ html {
   list-style-type: none;
   margin: 0.5rem;
   padding: 0.5rem;
+  background-color: rgba(255, 253, 208, 0.6);
+  border-radius: 3vh;
 }
