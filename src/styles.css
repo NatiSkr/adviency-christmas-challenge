@@ -1,0 +1,42 @@
+html {
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+/*Stock image from https://www.pexels.com/photo/assorted-color-gift-boxes-1303085/*/
+
+.gift-box {
+  width: fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.7)
+  );
+  border-radius: 3vh;
+  border-color: rgba(255, 255, 255, 0.3);
+  border-style: solid;
+  border-width: 0.5vh;
+}
+
+.gift-box ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gift-box ul li {
+  list-style-type: none;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
